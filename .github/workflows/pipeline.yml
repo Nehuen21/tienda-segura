@@ -1,6 +1,3 @@
-
-
-
 # Nombre del workflow, tal como aparece en la pestaña Actions de GitHub.
 name: pipeline
 
@@ -60,4 +57,3 @@ jobs:
 
           # Token que GitHub genera automáticamente para el workflow; Gitleaks lo usa para leer la PR.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
